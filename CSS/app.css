@@ -1,6 +1,13 @@
+/* The start element applies the rule on every item*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
 body {
     background-color: gray;
     font-size: 100%;
+    
 }
 #main {
     font-size: 22px;
@@ -19,17 +26,20 @@ body {
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
-    margin: 0;
-    padding: 0;
+    
+    
+
 }
 
 #box {
     background-color: blue;
-    padding: 10px 30px 10px 30px;
+    padding: 10px;
     border: 20px solid black;
-    margin: 40px;
-    width: 220px;
-    box-sizing: border-box;
+    margin: 10px;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+    
 }
 
 #content {
