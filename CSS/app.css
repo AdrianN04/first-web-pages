@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+    font-size: 100%;
+}
+#main {
+    font-size: 22px;
+    color: darkblue;
+    opacity: 0.8;
+    text-align: center;
+}
+.image1 {
+    text-align: center;
+
+}
